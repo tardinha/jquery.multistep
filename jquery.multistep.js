@@ -110,9 +110,9 @@
 
             // show or hide the actions, depending on which step we're on
             if(!step.is('.last')){
-                actions.show();
-            }else{
                 actions.hide();
+            }else{
+                actions.show();
             }
 
             currentStep = step;
