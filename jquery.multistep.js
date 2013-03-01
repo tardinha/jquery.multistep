@@ -24,7 +24,7 @@
 
         //$(form).prepend("<h3>" + count +  "</h3>");
 
-        $(form).prepend("<ul class='steps'></ul>");
+        //$(form).prepend("<ul class='steps'></ul>");
 
         /*
          * add the required elements and metadata to each step
@@ -37,11 +37,7 @@
             step.attr('id', 'step-' + i);
             step.append("<div class='prev-next'></div>");
 
-<<<<<<< HEAD
             //form.find(".steps:first").append("<li class='stepDesc" + i + "'><div>" + (i + 1) + ". <span>" + name + "</span></div></li>");
-=======
-            form.find(".steps:first").append("<li class='stepDesc" + i + "'><div>" + (i + 1) + ". <span>" + name + "</span></div></li>");
->>>>>>> 968d609e476a927a7787a818dcc141c63b90029a
 
             if (i == 0) {
                 createNextButton(step);
